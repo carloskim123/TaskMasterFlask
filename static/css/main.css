@@ -1,0 +1,78 @@
+/* Add Bootstrap-like styling to the existing elements */
+body, html {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background similar to Bootstrap */
+}
+
+.content {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff; /* White background for content */
+    border-radius: 4px; /* Add some rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Drop shadow for a card-like effect */
+}
+
+table, th, td {
+    border: 1px solid #dee2e6;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+td {
+    text-align: center;
+    padding: 8px;
+}
+
+a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.form {
+    margin-top: 20px;
+}
+
+#content {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #343a40; /* Bootstrap's text color */
+}
+
+/* Style a button inside the form */
+.form input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.form input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
